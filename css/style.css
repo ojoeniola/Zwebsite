@@ -83,4 +83,131 @@ a {
     color: #E7332B;
     background-color: transparent;
 }
+section.programs {
+    background-color: #fff;
+    overflow: hidden;
+}
+.container-fluid {
+    margin: 0 auto;
+    /* max-width: 1240px; */
+    text-align: center;
+    /* border: 1px solid red; */
+}
 
+.program-content {
+    padding-top: 0 !important;
+}
+.container-fluid {
+    max-width: 1440px !important;
+}
+.program-content .heading {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+.program-content p.slogan {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+.my-container {
+    max-width: 1240px !important;
+}
+.program-card-zed {
+    position: relative;
+    z-index: 1;
+}
+
+.program-card {
+    /* height: 511px; */
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #FFFAFA;
+    padding: 61px 47px 82px 36px;
+}
+.program-card img {
+    margin-bottom: 48px;
+}
+
+img.card-bg-svg-1 {
+    width: 100%;
+    position: absolute;
+    left: -120px;
+    top: -75px;
+    z-index: -1;
+}
+.program-card h3 a {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+    text-decoration: none;
+}
+img.card-bg-svg-2 {
+    width: 100%;
+    position: absolute;
+    right: -120px;
+    top: -75px;
+    z-index: -1;
+}
+
+.program-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+.footer {
+    margin-top: 215px;
+}
+.footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    padding: 20px;
+}
+.footer h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #514949;
+}
+.contact p, .address p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+}
+.contact-icons img {
+    width: 18px !important;
+    margin-right: 5px;
+}
+.copyright p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+}
+@media screen and (max-width:550px) {
+   .btn-div {
+    display: flex;
+    flex-direction: column;
+   } 
+    .footer-flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        margin-top: 5px;
+    }
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+}
